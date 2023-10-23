@@ -14,7 +14,7 @@ function Home() {
 
   const decrement = () => {
     if(quantity <=1){//If the quantity is less than or equal to 1
-      setQuantity(1);//Its setting the quantity value to 1
+    setQuantity(1);//Its setting the quantity value to 1
       setFinalAmount(itemPrice);//The final amount since the quantity is 1 will just be 800
     }
     if(quantity > 1){//If the quantity is greeater 1
