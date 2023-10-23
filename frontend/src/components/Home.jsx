@@ -19,7 +19,7 @@ function Home() {
     }
     if(quantity > 1){//If the quantity is greeater 1
     setQuantity(quantity - 1);//We remove 1 from the quantity value
-      setFinalAmount(finalAmount - itemPrice);//Removes 800 from the final amount
+    setFinalAmount(finalAmount - itemPrice);//Removes 800 from the final amount
     }
   }
     const checkout = () => {
