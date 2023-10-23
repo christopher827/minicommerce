@@ -18,7 +18,7 @@ function Home() {
       setFinalAmount(itemPrice);//The final amount since the quantity is 1 will just be 800
     }
     if(quantity > 1){//If the quantity is greeater 1
-      setQuantity(quantity - 1);//We remove 1 from the quantity value
+    setQuantity(quantity - 1);//We remove 1 from the quantity value
       setFinalAmount(finalAmount - itemPrice);//Removes 800 from the final amount
     }
   }
